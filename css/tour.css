@@ -4,7 +4,7 @@ pre {
   font-family: 'Open Sans', sans-serif;
 }
 
-.heading{
+h1{
   display: inline-block;
   margin: 0;
 }
@@ -16,6 +16,3 @@ pre {
 
 }
 
-.card .pick {
-	color: #e5798d;
-}
