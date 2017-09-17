@@ -8,7 +8,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: #3A6355;
+  color: #65a08b;
   background: #2d2b30;
 }
 
@@ -16,18 +16,18 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #c6c4c4;
 }
 
 a:hover {
-  color: #999;
+  color: #fff;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: rgba(45, 43, 48, 0.8);
+  background: rgba(45, 43, 48, 0.9);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -37,7 +37,7 @@ a:hover {
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 800;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -95,7 +95,7 @@ header .name{
   margin: 30px;
   padding: 20px 40px 40px;
   text-align: left;
-  border-top: 4px solid #781125;
+  border-top: 4px solid #e5798d;
   clear: both;
 }
 .card:hover {
@@ -120,7 +120,7 @@ header .name{
 .heading{
   font-size: 2em;
   text-transform: uppercase;
-  color: #781125;
+  color: #e5798d;
   margin-top: 10px;
 }
 
