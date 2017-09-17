@@ -14,9 +14,15 @@ form {
 .container{
   text-align: center;
 }
-.newsletter{
-  text-align: right;
 
+label, input {
+  display: block;
+  margin:1em;
+}
+
+form input:focus,
+form textarea:focus {
+  background-color: #9fbefc;
 }
 
 button:hover {

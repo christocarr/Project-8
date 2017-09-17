@@ -31,10 +31,10 @@
           <div class="container">
             <form class = "survey">
               <p>Who is your favorite band member:</p>
-              <input type="radio" name="res" value="John"> John
-              <input type="radio" name="res" value="Hazzard"> Hazzard
-              <input type="radio" name="res" value="Bob"> Bob
-              <input type="radio" name="res" value="Sally"> Sally
+              <input type="radio" name="res" value="John" id="John"> <label for="John">John</label>
+              <input type="radio" name="res" value="Hazzard" id="Hazzard"><label for="Hazzard">Hazzard</label>
+              <input type="radio" name="res" value="Bob" id="Bob"><label for="Bob">Bob</label> 
+              <input type="radio" name="res" value="Sally" id="Sally"><label for="Sally">Sally</label> 
 
               <p>What is your favorite album:</p>
               <select id="albums" name="select">
@@ -63,9 +63,9 @@
           <img class="photo" src= "img/the_band.jpg" alt="Drummer and lead guitarist performing on stage">
             <div class="container">
               <form class="newsletter">
-                  <p>Name: <input type ="text" name="textfield"></p>
-                  <p>Email: <input type ="email" name="textfield"></p>
-                  <p>Retype Email: <input type ="email" name="textfield"></p>
+                  <label for="name">Name:</label><input type ="text" name="textfield" id="name">
+                  <label for="email">Email:</label> <input type ="email" name="textfield" id="email">
+                  <label for="retype-email">Retype Email:</label><input type ="email" name="textfield" id="retype-email">
                   <button type="submit">Sign Up</button>
               </form>
             </div>
