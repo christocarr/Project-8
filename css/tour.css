@@ -1,7 +1,18 @@
 /* Tour page styles */
 
-pre {
+table {
   font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  
+}
+
+th {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+th,td {
+  padding: 0.6em;
 }
 
 h1{
