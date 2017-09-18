@@ -30,29 +30,33 @@
           <img class="photo" src= "img/concert01.jpg" alt="Fans of accessible frog at a live perfomance">
           <div class="container">
             <form class = "survey">
-              <p>Who is your favorite band member:</p>
-              <input type="radio" name="res" value="John" id="John"> <label for="John">John</label>
-              <input type="radio" name="res" value="Hazzard" id="Hazzard"><label for="Hazzard">Hazzard</label>
-              <input type="radio" name="res" value="Bob" id="Bob"><label for="Bob">Bob</label> 
-              <input type="radio" name="res" value="Sally" id="Sally"><label for="Sally">Sally</label> 
-
-              <p>What is your favorite album:</p>
-              <select id="albums" name="select">
-                <option value="1">Party For An Angel</option>
-                <option value="2">A Day Of Old</option>
-                <option value="3">Finding My Shadow</option>
-                <option value="4">Diamond Fireworks</option>
-                <option value="5">Enjoy Your Desire</option>
-                <option value="6">This Is For You</option>
-                <option value="7">Music Of My Life</option>
-                <option value="8">Song For Yesterday</option>
-                <option value="9">Heroic Forever</option>
-                <option value="10">Midnight Fires</option>
-                <option value="11">Street Of The Rider</option>
-              </select>
-
-              <p>What is your favorite song:</p>
-              <textarea></textarea>
+              <fieldset>
+                <legend>Who is your favorite band member:</legend>
+                <input type="radio" name="res" value="John" id="John"> <label for="John">John</label>
+                <input type="radio" name="res" value="Hazzard" id="Hazzard"><label for="Hazzard">Hazzard</label>
+                <input type="radio" name="res" value="Bob" id="Bob"><label for="Bob">Bob</label> 
+                <input type="radio" name="res" value="Sally" id="Sally"><label for="Sally">Sally</label> 
+              </fieldset>
+              <fieldset>
+                <legend>What is your favorite album:</legend>
+                <select id="albums" name="select">
+                  <option value="1">A Day Of Old</option>
+                  <option value="2">Diamond Fireworks</option>
+                  <option value="3">Enjoy Your Desire</option>
+                  <option value="4">Finding My Shadow</option>
+                  <option value="5">Heroic Forever</option>
+                  <option value="6">Midnight Fires</option>
+                  <option value="7">Music Of My Life</option>
+                  <option value="8">Party For An Angel</option>
+                  <option value="9">Song For Yesterday</option>
+                  <option value="10">Street Of The Rider</option>
+                  <option value="11">This Is For You</option>
+                </select>
+              </fieldset>
+              <fieldset>
+                <legend>What is your favorite song:</legend>
+                <textarea></textarea>
+              <fieldset>
             </form>
           </div>
         </div>
@@ -63,10 +67,13 @@
           <img class="photo" src= "img/the_band.jpg" alt="Drummer and lead guitarist performing on stage">
             <div class="container">
               <form class="newsletter">
+                <fieldset>
+                  <legend>newsletter</legend>
                   <label for="name">Name:</label><input type ="text" name="textfield" id="name">
                   <label for="email">Email:</label> <input type ="email" name="textfield" id="email">
                   <label for="retype-email">Retype Email:</label><input type ="email" name="textfield" id="retype-email">
                   <button type="submit">Sign Up</button>
+                </fieldset>
               </form>
             </div>
         </div>

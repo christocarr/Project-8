@@ -11,13 +11,35 @@ form {
   display: inline-block;
 }
 
-.container{
-  text-align: center;
+fieldset {
+  border-style: none;
+  margin-bottom: 1.5em;
 }
 
-label, input {
-  display: block;
-  margin:1em;
+legend {
+  margin-bottom: 0.4em;
+}
+
+.newsletter legend {
+  display: none;
+}
+
+.container{
+  text-align: center;
+  margin-top: 2em;
+  width: 22em;
+}
+
+.newsletter label {
+  display: inline-block;
+  float: left;
+  width: 7em;
+}
+
+.newsletter input {
+  display: inline-block;
+  margin-bottom: 1.5em;
+  width: 15em;
 }
 
 form input:focus,
@@ -25,8 +47,14 @@ form textarea:focus {
   background-color: #9fbefc;
 }
 
+button {
+  display: block;
+  float:right;
+  margin-right: 1em;
+}
+
 button:hover {
-  
+  background-color: #9fbefc;
 }
 
 /* Styles for larger screens */
