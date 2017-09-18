@@ -57,6 +57,22 @@ button:hover {
   background-color: #9fbefc;
 }
 
+#fullname {
+  font-size: 0.8em;
+  text-align: right;
+  margin-top: -1.5em;
+  margin-right: 0.5em;
+  color: #b7596b;
+}
+
+#submit {
+  margin-top: 2.5em;
+  margin-right: 0.5em;
+  font-size: 0.8em;
+  text-align: right;
+  color: #b7596b;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
   .photo{

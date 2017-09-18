@@ -23,13 +23,13 @@
 			<h2>we make awesome music</h2>
     </header>
 
-    <main>
+    <main role="main">
       <h1>Survey</h1>
       <div class="card">
         <div class="flex">
           <img class="photo" src= "img/concert01.jpg" alt="Fans of accessible frog at a live perfomance">
           <div class="container">
-            <form class = "survey">
+            <form class = "survey" role="form">
               <fieldset>
                 <legend>Who is your favorite band member:</legend>
                 <input type="radio" name="res" value="John" id="John"> <label for="John">John</label>
@@ -56,7 +56,7 @@
               <fieldset>
                 <legend>What is your favorite song:</legend>
                 <textarea></textarea>
-              <fieldset>
+              </fieldset>
             </form>
           </div>
         </div>
@@ -66,13 +66,15 @@
         <div class="flex">
           <img class="photo" src= "img/the_band.jpg" alt="Drummer and lead guitarist performing on stage">
             <div class="container">
-              <form class="newsletter">
+              <form class="newsletter" role="form">
                 <fieldset>
                   <legend>newsletter</legend>
-                  <label for="name">Name:</label><input type ="text" name="textfield" id="name">
+                  <label for="name">Name:</label><input type ="text" name="textfield" id="name" aria-describedby="fullname">
+                  <p id="fullname">Please enter a first and last name.</p>
                   <label for="email">Email:</label> <input type ="email" name="textfield" id="email">
                   <label for="retype-email">Retype Email:</label><input type ="email" name="textfield" id="retype-email">
-                  <button type="submit">Sign Up</button>
+                  <button type="submit" aria-describedby="submit">Sign Up</button>
+                  <p id="submit">Clicking on the button subscribes you to our weekly newsletter.</p>
                 </fieldset>
               </form>
             </div>
@@ -80,7 +82,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <ul>
         <li><a href="#" class="social twitter"><img src= "img/twitter-32.png" alt="twitter icon"></a></li>
         <li><a href="#" class="social youtube"><img src= "img/youtube-32.png" alt="youtube icon"></a></li>
